@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>Cafeterias de Especialidade em Curitiba</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-o9N1j6kGZbF1VdI+g+2jK7k+L7WZtU3lO8A2U5p4xyM="
+    crossorigin=""
+  />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></di
