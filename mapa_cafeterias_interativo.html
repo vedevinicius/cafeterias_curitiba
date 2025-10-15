@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_852ca8ff2733d6c21b6686022312fa87 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_852ca8ff2733d6c21b6686022312fa87" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_852ca8ff2733d6c21b6686022312fa87 = L.map(
+                "map_852ca8ff2733d6c21b6686022312fa87",
+                {
+                    center: [-25.4284, -49.2733],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d52c10e08eb81d9dcda12c4d3ff94bc9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+            var marker_6b0233156713c2906d159157d9dfea29 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_5c6e110ac74e17270ddda637503428cf = L.popup({"maxWidth": 320});
+
+        
+            var html_086874ebdd183f96b8c417d7573b5e56 = $(`<div id="html_086874ebdd183f96b8c417d7573b5e56" style="width: 100.0%; height: 100.0%;"><b>Argenta Cafés Especiais</b><br>Alameda Doutor Carlos de Carvalho, 603, loja 8<br>Centro<br>+55 (41) 99522-2472</div>`)[0];
+            popup_5c6e110ac74e17270ddda637503428cf.setContent(html_086874ebdd183f96b8c417d7573b5e56);
+        
+
+        marker_6b0233156713c2906d159157d9dfea29.bindPopup(popup_5c6e110ac74e17270ddda637503428cf)
+        ;
+
+        
+    
+    
+            var marker_f19a146857a905e8794735fc64247277 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_d56eb11a4d816ffc15f5fc4bfa8ec890 = L.popup({"maxWidth": 320});
+
+        
+            var html_8682a39598081067c63cb57d517df7be = $(`<div id="html_8682a39598081067c63cb57d517df7be" style="width: 100.0%; height: 100.0%;"><b>Athena Cyber Café</b><br>Rua XV de Novembro, 172<br>Centro<br>+55 (41) 3232-2000</div>`)[0];
+            popup_d56eb11a4d816ffc15f5fc4bfa8ec890.setContent(html_8682a39598081067c63cb57d517df7be);
+        
+
+        marker_f19a146857a905e8794735fc64247277.bindPopup(popup_d56eb11a4d816ffc15f5fc4bfa8ec890)
+        ;
+
+        
+    
+    
+            var marker_b56e46991d052f52c8c2979fc1594957 = L.marker(
+                [-25.4387, -49.2902],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_cfaa22db8a61328ad0b5f3041c30f5f1 = L.popup({"maxWidth": 320});
+
+        
+            var html_b8f4a8de3c923eca0dd3e846753af79d = $(`<div id="html_b8f4a8de3c923eca0dd3e846753af79d" style="width: 100.0%; height: 100.0%;"><b>Bocca Lupo</b><br>Rua Comendador Araújo, 431<br>Batel<br>+55 (41) 3016-7622</div>`)[0];
+            popup_cfaa22db8a61328ad0b5f3041c30f5f1.setContent(html_b8f4a8de3c923eca0dd3e846753af79d);
+        
+
+        marker_b56e46991d052f52c8c2979fc1594957.bindPopup(popup_cfaa22db8a61328ad0b5f3041c30f5f1)
+        ;
+
+        
+    
+    
+            var marker_c969818baa570cf9ee8cbcda03a69956 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_d79a474a765e15e33474f22a41a63591 = L.popup({"maxWidth": 320});
+
+        
+            var html_ccc268ad4ac65903c3d5eebab946bfbb = $(`<div id="html_ccc268ad4ac65903c3d5eebab946bfbb" style="width: 100.0%; height: 100.0%;"><b>Café Arte & Letra</b><br>Rua Desembargador Motta, 2011<br>Centro<br>+55 (41) 3223-5302</div>`)[0];
+            popup_d79a474a765e15e33474f22a41a63591.setContent(html_ccc268ad4ac65903c3d5eebab946bfbb);
+        
+
+        marker_c969818baa570cf9ee8cbcda03a69956.bindPopup(popup_d79a474a765e15e33474f22a41a63591)
+        ;
+
+        
+    
+    
+            var marker_983ba78e3847c995289cce093f1ae920 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_3d01568fef8b8ecdfa5edbb3a9d82997 = L.popup({"maxWidth": 320});
+
+        
+            var html_7a3c71a74b76e3b256cad1adaa62a571 = $(`<div id="html_7a3c71a74b76e3b256cad1adaa62a571" style="width: 100.0%; height: 100.0%;"><b>Café Babette</b><br>Alameda Prudente de Moraes, 1101<br>Centro<br>+55 (41) 3205-0955</div>`)[0];
+            popup_3d01568fef8b8ecdfa5edbb3a9d82997.setContent(html_7a3c71a74b76e3b256cad1adaa62a571);
+        
+
+        marker_983ba78e3847c995289cce093f1ae920.bindPopup(popup_3d01568fef8b8ecdfa5edbb3a9d82997)
+        ;
+
+        
+    
+    
+            var marker_2fa40f44744b64dd93c4d14fc27e650e = L.marker(
+                [-25.4387, -49.2902],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_e2105e4e466d6e22459572e77df4752d = L.popup({"maxWidth": 320});
+
+        
+            var html_3f3509466f6bf9fc3a2eafe83a701067 = $(`<div id="html_3f3509466f6bf9fc3a2eafe83a701067" style="width: 100.0%; height: 100.0%;"><b>Café da Esquina - Crystal</b><br>Rua Comendador Araújo, 731<br>Batel<br>+55 (41) 3015-4249</div>`)[0];
+            popup_e2105e4e466d6e22459572e77df4752d.setContent(html_3f3509466f6bf9fc3a2eafe83a701067);
+        
+
+        marker_2fa40f44744b64dd93c4d14fc27e650e.bindPopup(popup_e2105e4e466d6e22459572e77df4752d)
+        ;
+
+        
+    
+    
+            var marker_d78c1e4e9c0bd084770e7d8f3965a35b = L.marker(
+                [-25.4524, -49.2679],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_9537f99e58d6a4c1d1aae4f61f4b9dab = L.popup({"maxWidth": 320});
+
+        
+            var html_4d2841470af2b3057cd034070c908b69 = $(`<div id="html_4d2841470af2b3057cd034070c908b69" style="width: 100.0%; height: 100.0%;"><b>Café da Esquina - Estação</b><br>Avenida Sete de Setembro, 2775<br>Rebouças<br>+55 (41) 3094-5300</div>`)[0];
+            popup_9537f99e58d6a4c1d1aae4f61f4b9dab.setContent(html_4d2841470af2b3057cd034070c908b69);
+        
+
+        marker_d78c1e4e9c0bd084770e7d8f3965a35b.bindPopup(popup_9537f99e58d6a4c1d1aae4f61f4b9dab)
+        ;
+
+        
+    
+    
+            var marker_1fb78d894d89edc8abc9a110cf49ebc2 = L.marker(
+                [-25.4761, -49.2923],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_8917a538e24d4b2c9c04c2010e0ec40d = L.popup({"maxWidth": 320});
+
+        
+            var html_329f1893732e48d071496bcb83ba10ac = $(`<div id="html_329f1893732e48d071496bcb83ba10ac" style="width: 100.0%; height: 100.0%;"><b>Café da Esquina - Palladium</b><br>Avenida Presidente Kennedy, 4121<br>Portão<br>+55 (41) 3212-3963</div>`)[0];
+            popup_8917a538e24d4b2c9c04c2010e0ec40d.setContent(html_329f1893732e48d071496bcb83ba10ac);
+        
+
+        marker_1fb78d894d89edc8abc9a110cf49ebc2.bindPopup(popup_8917a538e24d4b2c9c04c2010e0ec40d)
+        ;
+
+        
+    
+    
+            var marker_49d18aa83ad15b0a3fa2522f4e03af3d = L.marker(
+                [-25.4586, -49.287],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_836c9d16b3c9bf08e01d49290b28c4bb = L.popup({"maxWidth": 320});
+
+        
+            var html_abb46f1e59a5e876f31a5b4589d39916 = $(`<div id="html_abb46f1e59a5e876f31a5b4589d39916" style="width: 100.0%; height: 100.0%;"><b>Café Demoiselle</b><br>Rua Silveira Peixoto, 601<br>Água Verde<br>+55 (41) 3024-7392</div>`)[0];
+            popup_836c9d16b3c9bf08e01d49290b28c4bb.setContent(html_abb46f1e59a5e876f31a5b4589d39916);
+        
+
+        marker_49d18aa83ad15b0a3fa2522f4e03af3d.bindPopup(popup_836c9d16b3c9bf08e01d49290b28c4bb)
+        ;
+
+        
+    
+    
+            var marker_1525721843b87b8218e8a4aec09a09ac = L.marker(
+                [-25.4586, -49.287],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_2642b984ce812ccc1f7c433437a52a71 = L.popup({"maxWidth": 320});
+
+        
+            var html_dbff277662a22bf997782f8e5afd5edf = $(`<div id="html_dbff277662a22bf997782f8e5afd5edf" style="width: 100.0%; height: 100.0%;"><b>Café do Concurseiro</b><br>Av. Água Verde, 1188 Loja 3 atrás<br>Água Verde<br>+55 (41) 99980-3300</div>`)[0];
+            popup_2642b984ce812ccc1f7c433437a52a71.setContent(html_dbff277662a22bf997782f8e5afd5edf);
+        
+
+        marker_1525721843b87b8218e8a4aec09a09ac.bindPopup(popup_2642b984ce812ccc1f7c433437a52a71)
+        ;
+
+        
+    
+    
+            var marker_b019e2be2a9213d849d0434ed9f3f054 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_dd857c96b98fb2b581c61ae13cd752ee = L.popup({"maxWidth": 320});
+
+        
+            var html_6c67d8c2ae0efecd8f2b0806626bd4b4 = $(`<div id="html_6c67d8c2ae0efecd8f2b0806626bd4b4" style="width: 100.0%; height: 100.0%;"><b>Café do Mercado</b><br>Avenida Sete de Setembro, 1865 - Mercado Municipal<br>Centro<br>+55 (41) 3362-7912</div>`)[0];
+            popup_dd857c96b98fb2b581c61ae13cd752ee.setContent(html_6c67d8c2ae0efecd8f2b0806626bd4b4);
+        
+
+        marker_b019e2be2a9213d849d0434ed9f3f054.bindPopup(popup_dd857c96b98fb2b581c61ae13cd752ee)
+        ;
+
+        
+    
+    
+            var marker_60fadfb7ebf261619fcda4ce246ba617 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_94f9e0dc8b79d44c448a84ad3437f21f = L.popup({"maxWidth": 320});
+
+        
+            var html_f88c1f54fff75c7ead244086b20ab4c3 = $(`<div id="html_f88c1f54fff75c7ead244086b20ab4c3" style="width: 100.0%; height: 100.0%;"><b>Café do Paço</b><br>Praça Generoso Marques, 189<br>Centro<br>+55 (41) 3234-4210</div>`)[0];
+            popup_94f9e0dc8b79d44c448a84ad3437f21f.setContent(html_f88c1f54fff75c7ead244086b20ab4c3);
+        
+
+        marker_60fadfb7ebf261619fcda4ce246ba617.bindPopup(popup_94f9e0dc8b79d44c448a84ad3437f21f)
+        ;
+
+        
+    
+    
+            var marker_bc6726aec883ff9e75f73f9fab144b0b = L.marker(
+                [-25.4761, -49.2923],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_bf07b6cee26cc01bc53468efc737839a = L.popup({"maxWidth": 320});
+
+        
+            var html_b6f2cc6b13f8dc8f0b6c255a927b5a65 = $(`<div id="html_b6f2cc6b13f8dc8f0b6c255a927b5a65" style="width: 100.0%; height: 100.0%;"><b>Café Treviso</b><br>Rua Carlos Dietzsch, 1115<br>Portão<br>+55 (41) 3779-4727</div>`)[0];
+            popup_bf07b6cee26cc01bc53468efc737839a.setContent(html_b6f2cc6b13f8dc8f0b6c255a927b5a65);
+        
+
+        marker_bc6726aec883ff9e75f73f9fab144b0b.bindPopup(popup_bf07b6cee26cc01bc53468efc737839a)
+        ;
+
+        
+    
+    
+            var marker_c6297da8961c7ca4058920de6ee64abd = L.marker(
+                [-25.4387, -49.2902],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_caf34c44b8798afe7e8647dea55bf071 = L.popup({"maxWidth": 320});
+
+        
+            var html_09eff3a2564c8a75b2e3bec5469e46f1 = $(`<div id="html_09eff3a2564c8a75b2e3bec5469e46f1" style="width: 100.0%; height: 100.0%;"><b>Café Zurich</b><br>Alameda Dom Pedro II, 255<br>Batel<br>+55 (41) 3232-8289</div>`)[0];
+            popup_caf34c44b8798afe7e8647dea55bf071.setContent(html_09eff3a2564c8a75b2e3bec5469e46f1);
+        
+
+        marker_c6297da8961c7ca4058920de6ee64abd.bindPopup(popup_caf34c44b8798afe7e8647dea55bf071)
+        ;
+
+        
+    
+    
+            var marker_d76af45fd4744761613cc4a92d701618 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_bc41270d729b61a7f465317cee15b4b6 = L.popup({"maxWidth": 320});
+
+        
+            var html_34d66235407087806e9d570860357372 = $(`<div id="html_34d66235407087806e9d570860357372" style="width: 100.0%; height: 100.0%;"><b>Caffè dell’Arte</b><br>R. Comendador Araújo, 241 - Loja 17<br>Centro<br>+55 (41) 3222-7051</div>`)[0];
+            popup_bc41270d729b61a7f465317cee15b4b6.setContent(html_34d66235407087806e9d570860357372);
+        
+
+        marker_d76af45fd4744761613cc4a92d701618.bindPopup(popup_bc41270d729b61a7f465317cee15b4b6)
+        ;
+
+        
+    
+    
+            var marker_7ae8b27f10b28d161c062552701300f5 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_950b1726f463559c8df505af942211b4 = L.popup({"maxWidth": 320});
+
+        
+            var html_4f38440e8eae062bf4bad161d0929958 = $(`<div id="html_4f38440e8eae062bf4bad161d0929958" style="width: 100.0%; height: 100.0%;"><b>Coffeeterie Cine Passeio</b><br>Rua Riachuelo, 410<br>Centro<br>+55 (41) 3323-1067</div>`)[0];
+            popup_950b1726f463559c8df505af942211b4.setContent(html_4f38440e8eae062bf4bad161d0929958);
+        
+
+        marker_7ae8b27f10b28d161c062552701300f5.bindPopup(popup_950b1726f463559c8df505af942211b4)
+        ;
+
+        
+    
+    
+            var marker_c350498218a2fc73f06bec2051197fea = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_5d59d12d74d9f261acce05c72f46aa97 = L.popup({"maxWidth": 320});
+
+        
+            var html_39c78d24d1746f9e4201705e5fd01b42 = $(`<div id="html_39c78d24d1746f9e4201705e5fd01b42" style="width: 100.0%; height: 100.0%;"><b>Cubo Café</b><br>Rua Conselheiro Araújo, 346<br>Centro<br>+55 (41) 99525-5289</div>`)[0];
+            popup_5d59d12d74d9f261acce05c72f46aa97.setContent(html_39c78d24d1746f9e4201705e5fd01b42);
+        
+
+        marker_c350498218a2fc73f06bec2051197fea.bindPopup(popup_5d59d12d74d9f261acce05c72f46aa97)
+        ;
+
+        
+    
+    
+            var marker_38b09a4256c400cb9c8d9166b8da5b6e = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_473c61ff65de120efa247d235b35473e = L.popup({"maxWidth": 320});
+
+        
+            var html_38b14fa979406ce0d743f75cc043549b = $(`<div id="html_38b14fa979406ce0d743f75cc043549b" style="width: 100.0%; height: 100.0%;"><b>Degusto Café</b><br>Alameda Doutor Carlos de Carvalho, 1148<br>Centro<br>+55 (41) 3387-9233</div>`)[0];
+            popup_473c61ff65de120efa247d235b35473e.setContent(html_38b14fa979406ce0d743f75cc043549b);
+        
+
+        marker_38b09a4256c400cb9c8d9166b8da5b6e.bindPopup(popup_473c61ff65de120efa247d235b35473e)
+        ;
+
+        
+    
+    
+            var marker_efa1dd78f73e5099efb36972f979e333 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_8c6d434befc74371183bbf9de58f56cc = L.popup({"maxWidth": 320});
+
+        
+            var html_f932c8b89f906e4432d425a2838e206b = $(`<div id="html_f932c8b89f906e4432d425a2838e206b" style="width: 100.0%; height: 100.0%;"><b>Empório Kaveh Kanes</b><br>Avenida Sete de Setembro, 1865 - Mercado Municipal<br>Centro<br>+55 (41) 3039-1049</div>`)[0];
+            popup_8c6d434befc74371183bbf9de58f56cc.setContent(html_f932c8b89f906e4432d425a2838e206b);
+        
+
+        marker_efa1dd78f73e5099efb36972f979e333.bindPopup(popup_8c6d434befc74371183bbf9de58f56cc)
+        ;
+
+        
+    
+    
+            var marker_97c4fcfeb03c13543f917f195104696f = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_11c21e20acafdebee35464e7590c75c0 = L.popup({"maxWidth": 320});
+
+        
+            var html_88f7efa0be9ff2f5a53a1e2c7974af21 = $(`<div id="html_88f7efa0be9ff2f5a53a1e2c7974af21" style="width: 100.0%; height: 100.0%;"><b>Empório Muf’s Café</b><br>Rua Lamenha Lins, 467<br>Centro<br>+55 (41) 3538-4848</div>`)[0];
+            popup_11c21e20acafdebee35464e7590c75c0.setContent(html_88f7efa0be9ff2f5a53a1e2c7974af21);
+        
+
+        marker_97c4fcfeb03c13543f917f195104696f.bindPopup(popup_11c21e20acafdebee35464e7590c75c0)
+        ;
+
+        
+    
+    
+            var marker_31996eab6020cff7b4e17af27b1fd3fd = L.marker(
+                [-25.4586, -49.287],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_122e7b1fd94fd1d47a7cbecc6db51c5d = L.popup({"maxWidth": 320});
+
+        
+            var html_10cfa9605117b6ac1c2a7b9d6179be56 = $(`<div id="html_10cfa9605117b6ac1c2a7b9d6179be56" style="width: 100.0%; height: 100.0%;"><b>Empório Quinoa Café</b><br>Avenida República Argentina, 334<br>Água Verde<br>+55 (41) 3088-3661</div>`)[0];
+            popup_122e7b1fd94fd1d47a7cbecc6db51c5d.setContent(html_10cfa9605117b6ac1c2a7b9d6179be56);
+        
+
+        marker_31996eab6020cff7b4e17af27b1fd3fd.bindPopup(popup_122e7b1fd94fd1d47a7cbecc6db51c5d)
+        ;
+
+        
+    
+    
+            var marker_25167ad02871fdd7cf89051417562f00 = L.marker(
+                [-25.4524, -49.2679],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_8c04602b1c8d2f9bc40264aad84e2c7b = L.popup({"maxWidth": 320});
+
+        
+            var html_fda16d92e495940f0ce57cdb8516d065 = $(`<div id="html_fda16d92e495940f0ce57cdb8516d065" style="width: 100.0%; height: 100.0%;"><b>Esal Café</b><br>Rua Vinte e Quatro de Maio, 1839<br>Rebouças<br>+55 (41) 3091-0427</div>`)[0];
+            popup_8c04602b1c8d2f9bc40264aad84e2c7b.setContent(html_fda16d92e495940f0ce57cdb8516d065);
+        
+
+        marker_25167ad02871fdd7cf89051417562f00.bindPopup(popup_8c04602b1c8d2f9bc40264aad84e2c7b)
+        ;
+
+        
+    
+    
+            var marker_b0d9fab400c0f4c3b4e68e6e102dfc45 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_4ac46fef7f95568eef23eeaa307ced07 = L.popup({"maxWidth": 320});
+
+        
+            var html_0851b8d76db2ecbd44fb6f6003c0f996 = $(`<div id="html_0851b8d76db2ecbd44fb6f6003c0f996" style="width: 100.0%; height: 100.0%;"><b>Fingen Café</b><br>Rua Amintas de Barros, 13, loja 13<br>Centro<br>+55 (41) 3023-2151</div>`)[0];
+            popup_4ac46fef7f95568eef23eeaa307ced07.setContent(html_0851b8d76db2ecbd44fb6f6003c0f996);
+        
+
+        marker_b0d9fab400c0f4c3b4e68e6e102dfc45.bindPopup(popup_4ac46fef7f95568eef23eeaa307ced07)
+        ;
+
+        
+    
+    
+            var marker_ad7ab8b2fbbe858b731ef3fca9367fd6 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_063c96bf78e896a91ab84d9f29d1b2b8 = L.popup({"maxWidth": 320});
+
+        
+            var html_a55893438452e09fa750a511019790ca = $(`<div id="html_a55893438452e09fa750a511019790ca" style="width: 100.0%; height: 100.0%;"><b>Go Coffee</b><br>Avenida Vicente Machado, 476<br>Centro<br>+55 (41) 3527-5222</div>`)[0];
+            popup_063c96bf78e896a91ab84d9f29d1b2b8.setContent(html_a55893438452e09fa750a511019790ca);
+        
+
+        marker_ad7ab8b2fbbe858b731ef3fca9367fd6.bindPopup(popup_063c96bf78e896a91ab84d9f29d1b2b8)
+        ;
+
+        
+    
+    
+            var marker_e2feab9dcafb21c9ad49031294039174 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_0495dd1f033f4a387c3ff68e90aff491 = L.popup({"maxWidth": 320});
+
+        
+            var html_96df913f1a5c587c34ff01d33ab5cdac = $(`<div id="html_96df913f1a5c587c34ff01d33ab5cdac" style="width: 100.0%; height: 100.0%;"><b>Grazie! Caffé</b><br>Rua do Comércio 24 Horas, 58, lojas 6/7<br>Centro<br>+55 (41) 99199-7999</div>`)[0];
+            popup_0495dd1f033f4a387c3ff68e90aff491.setContent(html_96df913f1a5c587c34ff01d33ab5cdac);
+        
+
+        marker_e2feab9dcafb21c9ad49031294039174.bindPopup(popup_0495dd1f033f4a387c3ff68e90aff491)
+        ;
+
+        
+    
+    
+            var marker_448aab4ec1652b627f61788da8732d00 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_789aeb242f61ab4dd8d98b45b03b1f1a = L.popup({"maxWidth": 320});
+
+        
+            var html_dc2ab2e451954d16818acb2c2d8409c3 = $(`<div id="html_dc2ab2e451954d16818acb2c2d8409c3" style="width: 100.0%; height: 100.0%;"><b>Hacienda Café</b><br>Alameda Prudente de Moraes, 1283<br>Centro<br>+55 (41) 3018-9525</div>`)[0];
+            popup_789aeb242f61ab4dd8d98b45b03b1f1a.setContent(html_dc2ab2e451954d16818acb2c2d8409c3);
+        
+
+        marker_448aab4ec1652b627f61788da8732d00.bindPopup(popup_789aeb242f61ab4dd8d98b45b03b1f1a)
+        ;
+
+        
+    
+    
+            var marker_10e341b4fadd09f288cba52f2d3f4b04 = L.marker(
+                [-25.4155, -49.2587],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_f2a12158400c005e562fb5da2c3b67a5 = L.popup({"maxWidth": 320});
+
+        
+            var html_980108fb3089a4d916b9824614f8fd41 = $(`<div id="html_980108fb3089a4d916b9824614f8fd41" style="width: 100.0%; height: 100.0%;"><b>Italy Caffé</b><br>Rua Rocha Pombo, 243<br>Juvevê<br>xxxx - xxxx</div>`)[0];
+            popup_f2a12158400c005e562fb5da2c3b67a5.setContent(html_980108fb3089a4d916b9824614f8fd41);
+        
+
+        marker_10e341b4fadd09f288cba52f2d3f4b04.bindPopup(popup_f2a12158400c005e562fb5da2c3b67a5)
+        ;
+
+        
+    
+    
+            var marker_0cfba1366f364649dbc54e43e6dad068 = L.marker(
+                [-25.412, -49.2705],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_96d5684d2991b81a9538bbb972cf61f7 = L.popup({"maxWidth": 320});
+
+        
+            var html_be34f32444481cfdc4d19549c52ae261 = $(`<div id="html_be34f32444481cfdc4d19549c52ae261" style="width: 100.0%; height: 100.0%;"><b>Kopenhagen</b><br>Av. Cândido de Abreu, 127<br>Centro Cívico<br>+55 (41) 3018-6057</div>`)[0];
+            popup_96d5684d2991b81a9538bbb972cf61f7.setContent(html_be34f32444481cfdc4d19549c52ae261);
+        
+
+        marker_0cfba1366f364649dbc54e43e6dad068.bindPopup(popup_96d5684d2991b81a9538bbb972cf61f7)
+        ;
+
+        
+    
+    
+            var marker_bced5cec0300bf9939645b30d4b2ccd2 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_b7abddd8ad559c064451a93ed071566f = L.popup({"maxWidth": 320});
+
+        
+            var html_404e9b9c79b0fd23de33b06a6817932d = $(`<div id="html_404e9b9c79b0fd23de33b06a6817932d" style="width: 100.0%; height: 100.0%;"><b>La Caffé Bistrô</b><br>Rua Visconde do Rio Branco, 1830, Loja 12 - Galeria Glaser<br>Centro<br>+55 (41) 98945-2909</div>`)[0];
+            popup_b7abddd8ad559c064451a93ed071566f.setContent(html_404e9b9c79b0fd23de33b06a6817932d);
+        
+
+        marker_bced5cec0300bf9939645b30d4b2ccd2.bindPopup(popup_b7abddd8ad559c064451a93ed071566f)
+        ;
+
+        
+    
+    
+            var marker_d808b57c8644426efa49fcda1fbed176 = L.marker(
+                [-25.4524, -49.2679],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_d84af72d2117466adabb0c481ff7c94d = L.popup({"maxWidth": 320});
+
+        
+            var html_800ff4d2cc9c3e1f785fa7c6290264a2 = $(`<div id="html_800ff4d2cc9c3e1f785fa7c6290264a2" style="width: 100.0%; height: 100.0%;"><b>Le Caffés Especiais</b><br>Avenida Sete de Setembro, 1865<br>Rebouças<br>+55 (41) 99670-1413</div>`)[0];
+            popup_d84af72d2117466adabb0c481ff7c94d.setContent(html_800ff4d2cc9c3e1f785fa7c6290264a2);
+        
+
+        marker_d808b57c8644426efa49fcda1fbed176.bindPopup(popup_d84af72d2117466adabb0c481ff7c94d)
+        ;
+
+        
+    
+    
+            var marker_5ed2d044c018981a8ca79b247aec95ef = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_a5c322eeef3b299383a41cc091f2572c = L.popup({"maxWidth": 320});
+
+        
+            var html_3f6dd9d510ad3cd3f29d78a4e59c476a = $(`<div id="html_3f6dd9d510ad3cd3f29d78a4e59c476a" style="width: 100.0%; height: 100.0%;"><b>Liquori Caffè Gourmet</b><br>Rua Comendador Araújo, 143<br>Centro<br>+55 (41) 3077-0610</div>`)[0];
+            popup_a5c322eeef3b299383a41cc091f2572c.setContent(html_3f6dd9d510ad3cd3f29d78a4e59c476a);
+        
+
+        marker_5ed2d044c018981a8ca79b247aec95ef.bindPopup(popup_a5c322eeef3b299383a41cc091f2572c)
+        ;
+
+        
+    
+    
+            var marker_5237756866dd53554430b72eb54de08e = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_296ed916685d7efc8b2da3abcb5ae7b0 = L.popup({"maxWidth": 320});
+
+        
+            var html_89aafa0a09de688cc6c49a9529e3eddc = $(`<div id="html_89aafa0a09de688cc6c49a9529e3eddc" style="width: 100.0%; height: 100.0%;"><b>Lola Li Café e Doceria</b><br>Alameda Prudente de Moraes, 1225<br>Centro<br>+55 (41) 3121-2882</div>`)[0];
+            popup_296ed916685d7efc8b2da3abcb5ae7b0.setContent(html_89aafa0a09de688cc6c49a9529e3eddc);
+        
+
+        marker_5237756866dd53554430b72eb54de08e.bindPopup(popup_296ed916685d7efc8b2da3abcb5ae7b0)
+        ;
+
+        
+    
+    
+            var marker_1963050f502399b9ab4d95b5600b80b0 = L.marker(
+                [-25.4387, -49.2902],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_ca579047548f1508c59550db8d632ae6 = L.popup({"maxWidth": 320});
+
+        
+            var html_facdfa66fb1752c99b351624a847a207 = $(`<div id="html_facdfa66fb1752c99b351624a847a207" style="width: 100.0%; height: 100.0%;"><b>Lucca Cafés Especiais</b><br>Alameda Presidente Taunay, 40<br>Batel<br>+55 (41) 3016-6675</div>`)[0];
+            popup_ca579047548f1508c59550db8d632ae6.setContent(html_facdfa66fb1752c99b351624a847a207);
+        
+
+        marker_1963050f502399b9ab4d95b5600b80b0.bindPopup(popup_ca579047548f1508c59550db8d632ae6)
+        ;
+
+        
+    
+    
+            var marker_37a7d076d21d7f79c5e8cdd3a399fc32 = L.marker(
+                [-25.4245, -49.2502],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_2c36c491802c01fcbcae99a9a4e6c72f = L.popup({"maxWidth": 320});
+
+        
+            var html_edde4c8f102e10d2c26712217fcdc4e1 = $(`<div id="html_edde4c8f102e10d2c26712217fcdc4e1" style="width: 100.0%; height: 100.0%;"><b>Nico’s Café Orgânico</b><br>Rua da Paz, 608<br>Alto da Rua XV<br>+55 (41) 3362-1588</div>`)[0];
+            popup_2c36c491802c01fcbcae99a9a4e6c72f.setContent(html_edde4c8f102e10d2c26712217fcdc4e1);
+        
+
+        marker_37a7d076d21d7f79c5e8cdd3a399fc32.bindPopup(popup_2c36c491802c01fcbcae99a9a4e6c72f)
+        ;
+
+        
+    
+    
+            var marker_606c9cdaa3ad6f8f9ecb04b224def5ed = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_6deeb3d91394e8b69b59fdbdc9120c39 = L.popup({"maxWidth": 320});
+
+        
+            var html_11badeede2579cff91e52c71e0fdb34e = $(`<div id="html_11badeede2579cff91e52c71e0fdb34e" style="width: 100.0%; height: 100.0%;"><b>Rause Café + Vinho</b><br>Rua Riachuelo, 274<br>Centro<br>+55 (41) 3527-7849</div>`)[0];
+            popup_6deeb3d91394e8b69b59fdbdc9120c39.setContent(html_11badeede2579cff91e52c71e0fdb34e);
+        
+
+        marker_606c9cdaa3ad6f8f9ecb04b224def5ed.bindPopup(popup_6deeb3d91394e8b69b59fdbdc9120c39)
+        ;
+
+        
+    
+    
+            var marker_a21fd5d9fa7a3f63937a08f814e29040 = L.marker(
+                [-25.4155, -49.2587],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_f4b0cf369092250b0beee8a59bab96be = L.popup({"maxWidth": 320});
+
+        
+            var html_e6a5f6d9ec0203c731f0bcad1d90aa38 = $(`<div id="html_e6a5f6d9ec0203c731f0bcad1d90aa38" style="width: 100.0%; height: 100.0%;"><b>Rituais Casa de Café</b><br>Rua Moyses Marcondes, 609<br>Juvevê<br>+55 (41) 3501-8234</div>`)[0];
+            popup_f4b0cf369092250b0beee8a59bab96be.setContent(html_e6a5f6d9ec0203c731f0bcad1d90aa38);
+        
+
+        marker_a21fd5d9fa7a3f63937a08f814e29040.bindPopup(popup_f4b0cf369092250b0beee8a59bab96be)
+        ;
+
+        
+    
+    
+            var marker_a95588976fce774d6a41826c998614a5 = L.marker(
+                [-25.4387, -49.2902],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_7f1fb7cfc4a275565ef4de8124684c82 = L.popup({"maxWidth": 320});
+
+        
+            var html_94a415855f3761a729f42690afae18a9 = $(`<div id="html_94a415855f3761a729f42690afae18a9" style="width: 100.0%; height: 100.0%;"><b>Santo Grão - Pátio Batel</b><br>Avenida Batel, 1868 - Pátio Batel<br>Batel<br>+55 (41) 3020-3438</div>`)[0];
+            popup_7f1fb7cfc4a275565ef4de8124684c82.setContent(html_94a415855f3761a729f42690afae18a9);
+        
+
+        marker_a95588976fce774d6a41826c998614a5.bindPopup(popup_7f1fb7cfc4a275565ef4de8124684c82)
+        ;
+
+        
+    
+    
+            var marker_070ff484c5d88e82f50fb1e5797ba0c1 = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_b6a255aab7a6caaff6330634e746042a = L.popup({"maxWidth": 320});
+
+        
+            var html_f13daaf85e32ff0bbbd4d34e48579555 = $(`<div id="html_f13daaf85e32ff0bbbd4d34e48579555" style="width: 100.0%; height: 100.0%;"><b>The Coffee</b><br>Rua Prudente de Moraes, 1227<br>Centro<br>Não disponível</div>`)[0];
+            popup_b6a255aab7a6caaff6330634e746042a.setContent(html_f13daaf85e32ff0bbbd4d34e48579555);
+        
+
+        marker_070ff484c5d88e82f50fb1e5797ba0c1.bindPopup(popup_b6a255aab7a6caaff6330634e746042a)
+        ;
+
+        
+    
+    
+            var marker_b5c366af218c98ae27ab3f3928f8b6ca = L.marker(
+                [-25.4245, -49.2502],
+                {}
+            ).addTo(map_852ca8ff2733d6c21b6686022312fa87);
+        
+    
+        var popup_50958dbf599bdbd98175e246636fca8c = L.popup({"maxWidth": 320});
+
+        
+            var html_62e280a7ed9f885e61506e5ab0171a55 = $(`<div id="html_62e280a7ed9f885e61506e5ab0171a55" style="width: 100.0%; height: 100.0%;"><b>Tudo café e drinks</b><br>Rua Conselheiro Araújo, 346<br>Alto da Rua XV<br>+55 (41) 99525-5289</div>`)[0];
+            popup_50958dbf599bdbd98175e246636fca8c.setContent(html_62e280a7ed9f885e61506e5ab0171a55);
+        
+
+        marker_b5c366af218c98ae27ab3f3928f8b6ca.bindPopup(popup_50958dbf599bdbd98175e246636fca8c)
+        ;
+
+        
+    
+</script>
+</html>
